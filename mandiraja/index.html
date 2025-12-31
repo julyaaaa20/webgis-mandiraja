@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-search.css">
         <link rel="stylesheet" href="css/leaflet.photon.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
@@ -38,7 +37,6 @@
         <script src="js/labels.js"></script>
         <script src="js/leaflet.photon.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="js/leaflet-search.js"></script>
         <script src="data/ADMINISTRASIDESA_AR_25K_1.js"></script>
         <script>
         var highlightLayer;
@@ -5280,16 +5278,6 @@
         });
         lay.addTo(map);
         setBounds();
-        map.addControl(new L.Control.Search({
-            layer: layer_ADMINISTRASIDESA_AR_25K_1,
-            initial: false,
-            hideMarkerOnCollapse: true,
-            propertyName: 'NAMOBJ'}));
-        if (typeof url === 'undefined') {
-            document.getElementsByClassName('search-button')[0].className += ' fa fa-binoculars';
-        } else {
-            document.getElementsByClassName('search-button')[1].className += ' fa fa-binoculars';
-        }
         </script>
     </body>
 </html>
