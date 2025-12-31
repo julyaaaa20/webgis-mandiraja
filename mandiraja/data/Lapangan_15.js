@@ -1,0 +1,1 @@
+var json_Lapangan_15 = {"type":"FeatureCollection","name":"Lapangan_15","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"2","Nama":"Lapangan Bhakti Manunggal Panggisari"},"geometry":{"type":"Point","coordinates":[109.484117300192921,-7.448812222289336]}}]}
